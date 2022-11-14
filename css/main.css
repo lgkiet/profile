@@ -1,55 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@900&family=Open+Sans:wght@400;500;600;700;800&family=Shrikhand&family=Silkscreen&display=swap');
+
 body {
-    background-color: #28223F;
+    background-color: #557153;
 }
 
 /* Profile Card*/
 
 body {
-    background-color: #28223F;
-    font-family: 'Ubuntu', sans-serif;
-    color: white;
+    background-color: #557153;
+    font-family: 'Alegreya Sans', sans-serif;
+    color: #393E46;
 }
 
 .profile-card {
-    background-color: #231E39;
+    background-color: #7D8F69;
     width: 60%;
     height: 66%;
     position: absolute;
     top: 20%;
     left: 20%;
     border-radius: 20px;
-    box-shadow: -10px 8px 15px rgb(8, 8, 8),10px 8px 15px rgb(8, 8, 8);
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.5);
+    border: 2px solid black;
 }
 
 #cover {
-    width: 400px;
+    width: 420px;
     border-radius: 20px;
     position: absolute;
 }
 
 #avatar {
     width: 150px;
+    height: 150px;
     border-radius: 50%;
     margin-bottom: 50px;
     position: absolute;
     margin-top: 150px;
     margin-left: 30px;
-    border: #28223F 8px solid;
+    border: #7D8F69 5px solid;
+    object-fit: cover;
 }
 
 .name {
     position: absolute;
     margin-top: 260px;
     margin-left: 200px;
-    font-family: 'Ubuntu', sans-serif;
-    color: white;
+    font-family: 'Alegreya Sans', sans-serif;
+    color: #E6E5A3;
 }
 
 .classname {
     position: absolute;
     margin-top: 300px;
     margin-left: 200px;
-    color: white;
+    color: black
 }
 
 .social {
@@ -87,7 +92,7 @@ body {
 }
 .aboutme {
     position: absolute;
-    margin-left: 420px; 
+    margin-left: 440px; 
 }
 
 
